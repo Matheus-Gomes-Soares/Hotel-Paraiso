@@ -1,7 +1,7 @@
       ******************************************************************
       * Author:Matheus Gomes Soares
       * Date:11/06/2025
-      * Purpose:MatÈria da faculdade
+      * Purpose:Mat√©ria da faculdade
       * Tectonics: cobc
       ******************************************************************
        IDENTIFICATION DIVISION.
@@ -86,8 +86,8 @@
            END-IF
            END-PERFORM
            MOVE "N" TO VALIDO.
-      *MAIOR QUE 0 … USADO TANTO PARA VERIFICAR SE … NUMERICO, TANTO SE … MAIOR QUE 0
-      *J¡ QUE N√O FAZ SENTIDO SALVAR SE FOR MENOR
+      *MAIOR QUE 0 √â USADO TANTO PARA VERIFICAR SE √â NUMERICO, TANTO SE √â MAIOR QUE 0
+      *J√Å QUE N√ÉO FAZ SENTIDO SALVAR SE FOR MENOR
        CAPTURA-DIAS.
            DISPLAY "QUANTOS DIAS DESEJA HOSPEDAR-SE?"
            PERFORM UNTIL NUMERICO = "S"
